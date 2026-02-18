@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🔖 Smart Bookmark App
 
-First, run the development server:
+A modern web application to save, organize, and manage bookmarks securely in one place.
+
+## 🚀 Live Demo
+👉 https://smart-bookmark-app-a7m9.vercel.app
+
+## ✨ Features
+
+- 🔐 User Authentication (Signup/Login)
+- ➕ Add bookmarks with title & URL
+- 🗂️ Organized bookmark list
+- ☁️ Cloud database storage
+- ⚡ Fast and responsive UI
+- 🌙 Clean modern design
+- 📱 Mobile-friendly layout
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- Next.js
+- React
+- Tailwind CSS
+
+**Backend / Database**
+- Supabase (Auth + Database)
+
+**Deployment**
+- Vercel
+
+## ⚙️ Installation (Local Setup)
 
 ```bash
+git clone https://github.com/sonali2509442/smart-bookmark-app.git
+cd smart-bookmark-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Challenges Faced & Solutions
+❌ Bookmarks were not saving
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✔️ Fixed by enabling Row Level Security policies in Supabase
 
-## Learn More
+❌ Authentication redirect issues
 
-To learn more about Next.js, take a look at the following resources:
+✔️ Updated Site URL and Redirect URLs in Supabase Auth settings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+❌ Deployment errors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✔️ Added environment variables in Vercel dashboard
 
-## Deploy on Vercel
+❌ UI looked basic initially
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✔️ Improved layout using Tailwind CSS components and responsive design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🎯 What I Learned
+
+Full-stack development using Next.js + Supabase
+
+Authentication and database integration
+
+Debugging production issues
+
+Deploying real applications on Vercel
+
+Writing clean and scalable UI
+
+📌 Future Improvements
+
+🔍 Search bookmarks
+
+🏷️ Categories / Tags
+
+⭐ Favorite bookmarks
+
+📂 Folder organization
+
+🔄 Edit/Delete functionality
+
+👩‍💻 Author
+Sonali Rout
+Final Year Student | Aspiring Software Engineer
+Passionate about building useful web applications 🚀
